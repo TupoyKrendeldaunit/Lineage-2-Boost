@@ -73,7 +73,7 @@ export default function App() {
           <div className="flex flex-col items-center md:items-start">
             <h1 className="text-2xl md:text-4xl font-light tracking-wider text-transparent bg-clip-text bg-gradient-to-br from-amber-100 to-amber-600/80 flex items-center gap-3">
               <Sparkles className="text-amber-500/50" size={24} />
-              AETHEL EQUIPMENT
+              ADOKAI 125 CADMUS
             </h1>
             <p className="text-neutral-500 text-xs md:text-sm tracking-widest uppercase mt-2">
               Character Build & Artifacts
