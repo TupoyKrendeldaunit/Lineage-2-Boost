@@ -90,7 +90,7 @@ export default function App() {
             className="relative w-full rounded-xl shadow-[0_0_80px_rgba(0,0,0,1)] border border-neutral-800/80 bg-black/60 overflow-visible flex justify-center"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}1.png`}
+              src="/1.png" 
               alt="Character Inventory Showcase" 
               className="block rounded-xl w-full h-auto transition-all"
             />
@@ -120,7 +120,7 @@ export default function App() {
                     className="w-full max-w-[95vw] md:max-w-2xl xl:max-w-4xl shadow-[0_20px_50px_rgba(0,0,0,0.95)]"
                   >
                     <img
-                      src={`${import.meta.env.BASE_URL}${spot.img}`}
+                      src={`/${spot.img}`}
                       alt={`${spot.id} stats`}
                       className="w-full h-auto object-contain max-h-[90vh] rounded-lg border border-neutral-700/80 bg-neutral-900/95"
                     />
@@ -173,7 +173,7 @@ export default function App() {
                 <div key={img} className="relative group snap-center shrink-0">
                   <div className="absolute inset-0 bg-amber-500/10 blur-xl rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-500" />
                   <img 
-                    src={`${import.meta.env.BASE_URL}${img}`}
+                    src={`/${img}`} 
                     alt={`Artifact configuration ${index + 1}`} 
                     className="relative h-[55vh] md:h-[60vh] xl:h-[70vh] w-auto max-w-[85vw] object-contain border border-neutral-700/80 hover:border-amber-600/50 transition-colors shadow-[0_20px_50px_rgba(0,0,0,0.8)] rounded-lg bg-[#050505]"
                   />
